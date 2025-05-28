@@ -52,7 +52,7 @@ export default function LandingPage() {
           <div className="mr-4 flex">
             <Link href="/" className="mr-6 flex items-center space-x-2">
               <Bot className="h-6 w-6" />
-              <span className="font-bold">AgentSim</span>
+              <span className="font-bold">Foundersync</span>
             </Link>
           </div>
           <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
@@ -115,7 +115,7 @@ export default function LandingPage() {
           <div className="flex flex-col gap-2 min-[400px]:flex-row">
             <Button size="lg" asChild>
               <Link href="/idea-input">
-                Start Simulation <ArrowRight className="ml-2 h-4 w-4" />
+                Create Simulation <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button variant="outline" size="lg" asChild>
@@ -340,7 +340,7 @@ export default function LandingPage() {
           <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
             <Bot className="h-6 w-6" />
             <p className="text-center text-sm leading-loose md:text-left">
-              Built by the AgentSim team. Open source on{" "}
+              Built by the Foundersync team. Open source on{" "}
               <Link href="#" className="font-medium underline underline-offset-4">
                 GitHub
               </Link>

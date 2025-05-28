@@ -13,7 +13,6 @@ import {
   Mic,
   MicOff,
   Send,
-  Settings,
   Users,
   Target,
   Code,
@@ -31,6 +30,7 @@ import {
   Menu,
 } from "lucide-react"
 import { toast } from "sonner"
+import GenerateDocs from "@/components/generateDocs"
 
 // Define types
 interface SpeechRecognitionEvent extends Event {
@@ -740,7 +740,7 @@ export default function Dashboard() {
             </div>
 
             <div className="flex items-center gap-2">
-              
+
 
               <Button variant="outline" size="sm">
                 <Users className="h-4 w-4 mr-2" />
@@ -751,7 +751,7 @@ export default function Dashboard() {
                 {isFullscreen ? <Minimize className="h-4 w-4" /> : <Maximize className="h-4 w-4" />}
               </Button>
 
-           
+
 
               <Button
                 variant="ghost"
@@ -1023,7 +1023,7 @@ export default function Dashboard() {
                               {msg.role === "user" ? user.name : agents.find((a) => a.id === activeAgent)?.name}
                             </span>
                           </div>
-                          <p className="text-sm leading-relaxed">{msg.content}</p>
+                          <p className="text-xs leading-relaxed">{msg.content}</p>
                           <div className="flex items-center gap-2 mt-2 text-xs opacity-70">
                             <Clock className="h-3 w-3" />
                             <span>{formatTimestamp(msg.timestamp)}</span>
@@ -1115,10 +1115,9 @@ export default function Dashboard() {
                 >
                   {isMuted ? <MicOff className="h-4 w-4" /> : <Mic className="h-4 w-4" />}
                 </Button>
-
-                <Button variant="outline" size="sm" className="h-12 w-12 p-0">
-                  <Settings className="h-4 w-4" />
-                </Button>
+                {/* a button that will send an api call wil all the latest conversation abiut the user and agents and then provide a detail documetation based on that conversation */}
+                <GenerateDocs />
+                
               </div>
             </div>
 

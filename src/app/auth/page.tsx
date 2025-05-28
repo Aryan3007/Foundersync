@@ -194,7 +194,7 @@ export default function AuthPage() {
                 <div className="text-center space-y-2">
                     <Link href="/" className="inline-flex items-center space-x-2">
                         <Bot className="h-8 w-8" />
-                        <span className="text-2xl font-bold">AgentSim</span>
+                        <span className="text-2xl font-bold">Foundersync</span>
                     </Link>
                     <p className="text-muted-foreground">AI-powered startup simulation platform</p>
                 </div>
@@ -202,7 +202,7 @@ export default function AuthPage() {
                 {/* Auth Form */}
                 <Card>
                     <CardHeader className="text-center">
-                        <CardTitle>Welcome to AgentSim</CardTitle>
+                        <CardTitle>Welcome to Foundersync</CardTitle>
                         <CardDescription>Sign in to your account or create a new one</CardDescription>
                     </CardHeader>
                     <CardContent>
