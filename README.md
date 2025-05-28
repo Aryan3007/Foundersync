@@ -12,7 +12,7 @@
 - CEO
 - CTO
 - Designer Head
-- Marketing Agent
+- Marketing Manager
 - Product Manager
 
 
