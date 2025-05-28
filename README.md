@@ -9,11 +9,12 @@
 - Context-sharing among agents
 
 ## 🧠 Agents Involved
+- CEO
+- CTO
+- Designer Head
 - Marketing Agent
-- Product Agent
-- Finance Agent
-- Risk Analysis Agent
-- Operations Agent
+- Product Manager
+
 
 ## 📦 Built With
 - Next JS and Gemini
