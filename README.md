@@ -16,12 +16,6 @@
 - Operations Agent
 
 ## 📦 Built With
-- React / Node.js
-- OpenAI / LangChain
+- Next JS and Gemini
 - Socket.IO (for real-time)
-- MongoDB
-
-## 📸 Screenshots
-> Upload images in the `assets/` folder and show:
-```md
-![Dashboard](assets/dashboard.png)
+- Supabase 
